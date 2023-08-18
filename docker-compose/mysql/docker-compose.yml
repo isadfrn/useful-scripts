@@ -1,0 +1,18 @@
+version: "3.8"
+services:
+  db:
+    image: mysql/mysql-server:latest
+    environment:
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+      - MYSQL_DATABASE=${MYSQL_DATABASE}
+      - MYSQL_USER=${MYSQL_USER}
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+      - MYSQL_INITDB_ARGS=--init-file=/etc/mysql/sql-scripts/init.sql
+      - MYSQL_ALLOW_EMPTY_PASSWORD="yes"
+    ports:
+      - "3306:3306"
+    volumes:
+      - data:/var/lib/mysql/data
+      - ./init.sql:/etc/mysql/sql-scripts/init.sql
+volumes:
+  data:
