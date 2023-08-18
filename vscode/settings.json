@@ -1,0 +1,49 @@
+{
+  "workbench.startupEditor": "none",
+  "editor.minimap.enabled": false,
+  "git.ignoreRebaseWarning": true,
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "jest.autoRun": "off",
+  "jest.autoRevealOutput": "off",
+  "material-icon-theme.folders.associations": {
+    "infrastructure": "Cluster",
+    "stripe": "Resource"
+  },
+  "emmet.includeLanguages": {
+    "postcss": "css"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "explorer.compactFolders": false,
+  "git.autofetch": true,
+  "editor.accessibilitySupport": "off",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.colorTheme": "Rosé Pine Moon",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.inlineSuggest.enabled": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "yaml": false
+  },
+  "symbols.hidesExplorerArrows": false,
+  "redhat.telemetry.enabled": true,
+  "github.copilot.advanced": {},
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "workbench.iconTheme": "symbols",
+  "totalTypeScript.hideAllTips": false,
+  "totalTypeScript.hideBasicTips": false,
+  "window.zoomLevel": 2,
+  "go.useLanguageServer": true
+}
