@@ -1,7 +1,3 @@
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-
 rdm() {
   echo "# Title\n\n![Languages used](https://img.shields.io/github/languages/count/isadfrn/"$1"?style=flat-square)\n![Repository size](https://img.shields.io/github/repo-size/isadfrn/"$1"?style=flat-square)\n![Last commit](https://img.shields.io/github/last-commit/isadfrn/"$1"?style=flat-square)\n\n## About\n\nAbout here\n\n## Run\n\nHow to run here\n\n## Contributing\n\nThis repository is using [Gitflow Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) and [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), so if you want to contribute:\n\n- create a branch from develop branch;\n- make your contributions;\n- open a [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) to develop branch;\n- wait for discussion and future approval;\n\nI thank you in advance for any contribution.\n\n## Status\nMaintaining\n\n## License\n\n[MIT](./LICENSE)\n" > README.md
 }
