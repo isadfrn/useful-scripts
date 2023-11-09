@@ -1,7 +1,7 @@
 #!/bin/bash
 
-input_dir=""
-output_dir=""
+input_dir="./"
+output_dir="./output"
 
 mkdir -p "$output_dir"
 

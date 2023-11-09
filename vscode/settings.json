@@ -41,9 +41,10 @@
   "terminal.integrated.env.osx": {
     "FIG_NEW_SESSION": "1"
   },
-  "workbench.iconTheme": "symbols",
+  "workbench.iconTheme": "material-icon-theme",
   "totalTypeScript.hideAllTips": false,
   "totalTypeScript.hideBasicTips": false,
+  "go.useLanguageServer": true,
   "window.zoomLevel": 2,
-  "go.useLanguageServer": true
+  "window.menuBarVisibility": "toggle"
 }
